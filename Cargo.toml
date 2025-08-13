@@ -4,7 +4,7 @@ members = ["chat_server", "sse_server"]
 resolver = "2"
 
 [workspace.dependencies]
-anyhow = "1.0.98"
+anyhow = "1.0.99"
 axum = { version = "0.8.4", features = [
     "http2",
     "query",
